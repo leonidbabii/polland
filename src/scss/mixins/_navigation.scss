@@ -1,0 +1,23 @@
+@mixin normal {
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.2px;
+}
+@mixin hover {
+  color: $orange;
+  padding-bottom: 36px;
+  border-bottom: 1px solid $orange;
+  border-radius: 10px 10px 0 0;
+}
+@mixin active {
+  background-color: $orange;
+  transition: color 0.5s;
+}
+
+@mixin footer-hover {
+  color: $orange;
+}
+
+@mixin footer-active {
+  color: $orange;
+}

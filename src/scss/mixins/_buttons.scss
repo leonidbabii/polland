@@ -1,0 +1,31 @@
+@mixin arrows-hover {
+  border: 1px solid $orange;
+  color: $orange;
+}
+
+@mixin arrows-disabled {
+  border: 1px solid $disabled;
+  color: $disabled;
+}
+
+@mixin buttons-def {
+  padding: 20px;
+  background-color: $black;
+  color: $white;
+  @include full-body;
+}
+
+@mixin buttons-hover {
+  background-color: $orange;
+  color: $white;
+}
+@mixin buttons-active {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+@mixin scroll-hover {
+  
+}
+
+
