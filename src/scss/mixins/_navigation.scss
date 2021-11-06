@@ -13,11 +13,3 @@
   background-color: $orange;
   transition: color 0.5s;
 }
-
-@mixin footer-hover {
-  color: $orange;
-}
-
-@mixin footer-active {
-  color: $orange;
-}

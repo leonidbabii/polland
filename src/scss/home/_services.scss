@@ -1,0 +1,41 @@
+.services {
+
+  &__list {
+    display: flex;
+  }
+
+  &__item {
+    display: flex;
+    background-color: var(--gray-200);
+    border-radius: $br-background;
+    flex-direction: column;
+    &:not(:last-child) {
+      margin-right: 25px;
+    }
+  }
+
+  &__icon {
+    height: 30px;}
+
+  &__title {
+    @include h3;
+    padding-bottom: 40px;
+    color: var(--black-800);
+  }
+
+  &__text {
+    padding: 55px 30px;
+    color: var(--gray-800);
+  }
+
+  &__link {
+    padding-left: 10px;
+  }
+}
+
+
+.subtitle {
+  padding-bottom: 40px;
+  @include subtitle;
+  color: var(--gray-800);
+}

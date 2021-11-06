@@ -1,41 +1,42 @@
 @mixin h1 {
   font-size: 42px;
   line-height: 1.2;
-  font-family:'Montserat-SemiBold', sans-serif;
+  font-weight: 700;
+
 }
 
 @mixin h2 {
   font-size: 32px;
   line-height: 1.2;
-  font-family: 'Montserat-SemiBold', sans-serif;
+  font-weight: 700;
 }
 
 @mixin h3 {
   font-size: 18px;
   line-height: 1.2;
-  font-family: 'Montserat-SemiBold', sans-serif;
+  font-weight: 700;
 }
 
 @mixin subtitle {
   font-size: 16px;
   line-height: 1.4;
-  font-family: 'Montserat-SemiBold', sans-serif;
+  font-weight: 700;
 }
 
 @mixin subtitle-secondary {
   font-size: 18px;
   line-height: 1.2;
-  font-family: 'Montserat-SemiBold', sans-serif;
+  font-weight: 700;
 }
 
 @mixin body {
   font-size: 16px;
   line-height: 1.5;
-  font-family: 'Montserat-Regular', sans-serif;
+  font-weight: 400;
 }
 
 @mixin full-body {
   font-size: 14px;
   line-height: 1.8;
-  font-family: 'Montserat-Regular', sans-serif;
+  font-weight: 400;
 }
